@@ -22,7 +22,18 @@
       loadSidebar: true,
       subMaxLevel: 2,
       coverpage: true,
-      loadNavbar: true
+      loadNavbar: true,
+      search : {
+        maxAge: 43200000,
+        placeholder: {
+          '/': '搜索',
+          '/en/': 'Search'
+        },
+        noData: {
+          '/': '找不到结果',
+          '/en/': 'No Results'
+        }
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
