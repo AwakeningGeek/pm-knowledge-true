@@ -2,4 +2,4 @@
 
 * guide
   * [快速开始]()
-  * [基础概念](/Getting-Started)
+  * [基础概念](/en/Getting-Started)
